@@ -1,0 +1,46 @@
+
+PODS:
+- ASIHTTPRequest (1.8.1):
+  - ASIHTTPRequest/ASIWebPageRequest (= 1.8.1)
+  - ASIHTTPRequest/CloudFiles (= 1.8.1)
+  - ASIHTTPRequest/S3 (= 1.8.1)
+  - Reachability
+- ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+  - Reachability
+- ASIHTTPRequest/CloudFiles (1.8.1):
+  - Reachability
+- ASIHTTPRequest/S3 (1.8.1):
+  - Reachability
+- JSONKit (1.5pre)
+- OCMock (2.0.1)
+- Reachability (2.0.5)
+- SBJson (3.1.1)
+- SDWebImage (2.7)
+- SFHFKeychainUtils (0.0.1)
+
+DEPENDENCIES:
+- ASIHTTPRequest
+- JSONKit (~> 1.4)
+- OCMock
+- Reachability (~> 2.0.4)
+- SBJson
+- SDWebImage (from `https://github.com/appwilldev/SDWebImage.git')
+- SFHFKeychainUtils
+
+EXTERNAL SOURCES:
+  SDWebImage:
+    :git: https://github.com/appwilldev/SDWebImage.git
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: e606d2df58b0aace6c1cf1d39a08d3484f91324a
+  ASIHTTPRequest/ASIWebPageRequest: e606d2df58b0aace6c1cf1d39a08d3484f91324a
+  ASIHTTPRequest/CloudFiles: e606d2df58b0aace6c1cf1d39a08d3484f91324a
+  ASIHTTPRequest/S3: e606d2df58b0aace6c1cf1d39a08d3484f91324a
+  JSONKit: 3d4708953ea7ae399a49777372d8b060a43ddd27
+  OCMock: 77a9c4c57af6bf258a537d34cf09abf422affede
+  Reachability: 8d29c8365f72967b6decc8d2892a7d5dc6550799
+  SBJson: d917ef596960a977b6c20235a90810bc306a48f0
+  SDWebImage: b5ec8ef3ffbb0646982f11e0cc0bd97a50e6dd1a
+  SFHFKeychainUtils: b76aa7a39f07eb6ff97ab94b582e789f50d7ec5a
+
+COCOAPODS: 0.16.0

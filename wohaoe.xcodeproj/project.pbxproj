@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335FCDB948994F1AA2ECA269 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD63FE2B549417C85CA98AB /* libPods.a */; };
 		7728A7DA16A03BA6001657DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728A7D916A03BA6001657DD /* UIKit.framework */; };
 		7728A7DC16A03BA6001657DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728A7DB16A03BA6001657DD /* Foundation.framework */; };
 		7728A7DE16A03BA6001657DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728A7DD16A03BA6001657DD /* CoreGraphics.framework */; };
@@ -21,6 +22,13 @@
 		7728A7FA16A03BA6001657DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728A7DB16A03BA6001657DD /* Foundation.framework */; };
 		7728A80216A03BA6001657DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7728A80016A03BA6001657DD /* InfoPlist.strings */; };
 		7728A80516A03BA6001657DD /* wohaoeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728A80416A03BA6001657DD /* wohaoeTests.m */; };
+		7728A82A16A059B8001657DD /* NSNull+ModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728A82716A059B8001657DD /* NSNull+ModelHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7728A82B16A059B8001657DD /* NSString+ModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728A82916A059B8001657DD /* NSString+ModelHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7728A83116A059CE001657DD /* NSData+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728A82E16A059CE001657DD /* NSData+Crypto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7728A83216A059CE001657DD /* NSString+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728A83016A059CE001657DD /* NSString+Crypto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7728A85816A0618E001657DD /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728A85716A0618E001657DD /* CoreImage.framework */; };
+		7728A85B16A06194001657DD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728A85A16A06194001657DD /* ImageIO.framework */; };
+		7728A85D16A061A1001657DD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728A85C16A061A1001657DD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13DEC7B77DB544E08D3F844F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		7728A7D516A03BA6001657DD /* wohaoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wohaoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7728A7D916A03BA6001657DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7728A7DB16A03BA6001657DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,18 @@
 		7728A80116A03BA6001657DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7728A80316A03BA6001657DD /* wohaoeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wohaoeTests.h; sourceTree = "<group>"; };
 		7728A80416A03BA6001657DD /* wohaoeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wohaoeTests.m; sourceTree = "<group>"; };
+		7728A82616A059B8001657DD /* NSNull+ModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNull+ModelHelper.h"; path = "libs/ModelHelpers/NSNull+ModelHelper.h"; sourceTree = "<group>"; };
+		7728A82716A059B8001657DD /* NSNull+ModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNull+ModelHelper.m"; path = "libs/ModelHelpers/NSNull+ModelHelper.m"; sourceTree = "<group>"; };
+		7728A82816A059B8001657DD /* NSString+ModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ModelHelper.h"; path = "libs/ModelHelpers/NSString+ModelHelper.h"; sourceTree = "<group>"; };
+		7728A82916A059B8001657DD /* NSString+ModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ModelHelper.m"; path = "libs/ModelHelpers/NSString+ModelHelper.m"; sourceTree = "<group>"; };
+		7728A82D16A059CE001657DD /* NSData+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Crypto.h"; path = "libs/Crypto/NSData+Crypto.h"; sourceTree = "<group>"; };
+		7728A82E16A059CE001657DD /* NSData+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Crypto.m"; path = "libs/Crypto/NSData+Crypto.m"; sourceTree = "<group>"; };
+		7728A82F16A059CE001657DD /* NSString+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Crypto.h"; path = "libs/Crypto/NSString+Crypto.h"; sourceTree = "<group>"; };
+		7728A83016A059CE001657DD /* NSString+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Crypto.m"; path = "libs/Crypto/NSString+Crypto.m"; sourceTree = "<group>"; };
+		7728A85716A0618E001657DD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		7728A85A16A06194001657DD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7728A85C16A061A1001657DD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DCD63FE2B549417C85CA98AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +81,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7728A85D16A061A1001657DD /* MapKit.framework in Frameworks */,
+				7728A85B16A06194001657DD /* ImageIO.framework in Frameworks */,
+				7728A85816A0618E001657DD /* CoreImage.framework in Frameworks */,
 				7728A7DA16A03BA6001657DD /* UIKit.framework in Frameworks */,
 				7728A7DC16A03BA6001657DD /* Foundation.framework in Frameworks */,
 				7728A7DE16A03BA6001657DD /* CoreGraphics.framework in Frameworks */,
+				335FCDB948994F1AA2ECA269 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +111,7 @@
 				7728A7FD16A03BA6001657DD /* wohaoeTests */,
 				7728A7D816A03BA6001657DD /* Frameworks */,
 				7728A7D616A03BA6001657DD /* Products */,
+				13DEC7B77DB544E08D3F844F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +127,14 @@
 		7728A7D816A03BA6001657DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7728A85C16A061A1001657DD /* MapKit.framework */,
+				7728A85A16A06194001657DD /* ImageIO.framework */,
+				7728A85716A0618E001657DD /* CoreImage.framework */,
 				7728A7D916A03BA6001657DD /* UIKit.framework */,
 				7728A7DB16A03BA6001657DD /* Foundation.framework */,
 				7728A7DD16A03BA6001657DD /* CoreGraphics.framework */,
 				7728A7F716A03BA6001657DD /* SenTestingKit.framework */,
+				DCD63FE2B549417C85CA98AB /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +142,7 @@
 		7728A7DF16A03BA6001657DD /* wohaoe */ = {
 			isa = PBXGroup;
 			children = (
+				7728A82316A05942001657DD /* libs */,
 				7728A7E816A03BA6001657DD /* AppDelegate.h */,
 				7728A7E916A03BA6001657DD /* AppDelegate.m */,
 				7728A7E016A03BA6001657DD /* Supporting Files */,
@@ -152,6 +183,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7728A82316A05942001657DD /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				7728A82C16A059C0001657DD /* Crypto */,
+				7728A82516A05978001657DD /* ModelHelpers */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		7728A82516A05978001657DD /* ModelHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				7728A82616A059B8001657DD /* NSNull+ModelHelper.h */,
+				7728A82716A059B8001657DD /* NSNull+ModelHelper.m */,
+				7728A82816A059B8001657DD /* NSString+ModelHelper.h */,
+				7728A82916A059B8001657DD /* NSString+ModelHelper.m */,
+			);
+			name = ModelHelpers;
+			sourceTree = "<group>";
+		};
+		7728A82C16A059C0001657DD /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				7728A82D16A059CE001657DD /* NSData+Crypto.h */,
+				7728A82E16A059CE001657DD /* NSData+Crypto.m */,
+				7728A82F16A059CE001657DD /* NSString+Crypto.h */,
+				7728A83016A059CE001657DD /* NSString+Crypto.m */,
+			);
+			name = Crypto;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +224,7 @@
 				7728A7D116A03BA6001657DD /* Sources */,
 				7728A7D216A03BA6001657DD /* Frameworks */,
 				7728A7D316A03BA6001657DD /* Resources */,
+				AB474E6073F5417BB81211DA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +317,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		AB474E6073F5417BB81211DA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,6 +340,10 @@
 			files = (
 				7728A7E616A03BA6001657DD /* main.m in Sources */,
 				7728A7EA16A03BA6001657DD /* AppDelegate.m in Sources */,
+				7728A82A16A059B8001657DD /* NSNull+ModelHelper.m in Sources */,
+				7728A82B16A059B8001657DD /* NSString+ModelHelper.m in Sources */,
+				7728A83116A059CE001657DD /* NSData+Crypto.m in Sources */,
+				7728A83216A059CE001657DD /* NSString+Crypto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +439,7 @@
 		};
 		7728A80916A03BA6001657DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DEC7B77DB544E08D3F844F /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wohaoe/wohaoe-Prefix.pch";
@@ -369,6 +451,7 @@
 		};
 		7728A80A16A03BA6001657DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DEC7B77DB544E08D3F844F /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wohaoe/wohaoe-Prefix.pch";
@@ -431,6 +514,7 @@
 				7728A80A16A03BA6001657DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7728A80B16A03BA6001657DD /* Build configuration list for PBXNativeTarget "wohaoeTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +523,7 @@
 				7728A80D16A03BA6001657DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
